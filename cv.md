@@ -1,14 +1,12 @@
 # rsschool-cv
-
 ***
 ## Dmitry Gilew
-
----
+***
 ### Contacts:
 - **Location**: Belarus, Kobryn
 - **Phone**: +375298670562
 - **Email**: dimadima8054@gmail.com
-
+####
 ***
 ### About me:
 Purpose: master all the material of this course and learn how to apply it in practice
