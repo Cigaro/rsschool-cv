@@ -1,14 +1,18 @@
 # rsschool-cv
+
 ***
 ## Dmitry Gilew
+
 ---
 ### Contacts:
 - **Location**: Belarus, Kobryn
 - **Phone**: +375298670562
 - **Email**: dimadima8054@gmail.com
+
 ***
 ### About me:
 Purpose: master all the material of this course and learn how to apply it in practice
+
 ***
 ### Skils:
 - *HTML*
@@ -16,6 +20,8 @@ Purpose: master all the material of this course and learn how to apply it in pra
 - *JavaScript (Basic)*
 - *VS Code*
 - *Git*
+
+
 ***
 ### Code example:
 ***KATA from CODEWARS:*** You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.
