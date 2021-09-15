@@ -19,7 +19,6 @@ Purpose: master all the material of this course and learn how to apply it in pra
 - *VS Code*
 - *Git*
 
-
 ***
 ### Code example:
 ***KATA from CODEWARS:*** You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.
@@ -44,6 +43,7 @@ function getMiddle(s){
 ***
 ### Education:
 *Brest State Technical University, сomputing machines, systems and networks*
+#####
 ***
 ### English:
 Your score indicates that your level of English is in the range of B1 INTERMEDIATE to B2 UPPER INTERMEDIATE, according to the guidelines set by the Common European Framework of Reference (CEFR).
