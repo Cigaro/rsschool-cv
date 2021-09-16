@@ -5,16 +5,17 @@
 
 body{
   background: linear-gradient(0deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
-
   font-family: 'Roboto', sans-serif;
+  
 }
+
 .container{
   width: 90%;
   max-width: 945px; 
   margin: auto;
 }
 .logo{
-  max-width: 8%;
+  max-width: 30%;
 }
 .social-link{
   margin-left: 10px;
@@ -28,7 +29,7 @@ body{
 }
 .hero-header{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .main-content{
@@ -56,15 +57,19 @@ body{
 .main-text h2{
   padding-bottom: 10px;
 }
-.main-text li{
-  list-style-type: none;
+.main-text ul{
+  padding-left: 0px;
+}
+.main-text ul li{
   color: #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding-bottom: 10px;
+  padding-left: 0px;
+  list-style-type: none;
 }
-.main-text li img{
+.main-text ul img{
   max-width: 35px;
   padding-right: 10px;
 }
