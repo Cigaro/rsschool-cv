@@ -1,1 +1,1 @@
-# https://Cigaro.github.io/rsschool-cv/cv
+# https://Cigaro.github.io/rsschool-cv/
