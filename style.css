@@ -1,0 +1,130 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background: linear-gradient(0deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  width: 90%;
+  max-width: 945px; 
+  margin: auto;
+}
+.logo{
+  max-width: 8%;
+}
+.social-link{
+  margin-left: 10px;
+}
+.social-link img{
+  max-width: 100px;
+}
+.hero{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.hero-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-content{
+  display: flex;
+  justify-content: space-between;
+}
+.main-avatar{
+  width: 340px;
+  height: 340px;
+  background-color: #fff;
+  border-radius: 50%;
+  background-image: url(images/avatar.jpg);
+  background-repeat: no-repeat;
+  background-position: -545px -180px;
+  border: 13px solid #645F5E;
+}
+.main-title{
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+.main-text p {
+  max-width: 60%;
+  padding-bottom: 20px;
+}
+.main-text h2{
+  padding-bottom: 10px;
+}
+.main-text li{
+  list-style-type: none;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.main-text li img{
+  max-width: 35px;
+  padding-right: 10px;
+}
+.main-info{
+  display: flex;
+  justify-content: space-between;
+  width: 160%;
+}
+.info-contacts p{
+  max-width: 80%;
+  padding-top: 20px;
+}
+.code-example{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.code-example pre{
+  color: #fff;
+  font-size: 14px;
+}
+.code-title h2{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.code-title p{
+  padding-bottom: 30px;
+}
+.my-english-text-img{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 45px;
+  
+}
+.my-english-text-img p{
+  width: 40%;
+  font-size: 18px;
+}
+.my-english{
+  padding-bottom: 20px;
+}
+.my-english h2{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.footer{
+  padding-top: 6px;
+  height: 60px;
+  background-color: #645F5E;
+}
+.footer-info{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-info p {
+  font-weight: bold;
+  font-size: 24px;
+}
