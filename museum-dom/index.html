@@ -44,11 +44,66 @@
     <section class="Welcome">
       <div class="container">
         <div class="welcome-content">
+          <div class="welcome-text">
           <h1 class="section-title wel hide">Welcome<br> to the Louvre</h1>
           <p class="hide1">From the castle to the museum</p>         
           <a class="hide2" href="https://www.google.com/maps/@48.8618159,2.3366818,3a,75y,81.55h,73.4t/data=!3m7!1e1!3m5!1sAF1QipOVxZQuSy3Bx9T_HpH_7FtBHDTXvI6SF-A10ocT!2e10!3e12!7i5472!8i2736">Discover the Louvre</a>
+        </div>
           <div class="welcome-slider">
-            <img src="assets/img/welcome-slider/1.jpg" alt="welcome">
+            <div class="carousel">
+              <div class="items-container">
+                <div class="item active ">
+                  <div class="description">
+                    <img class="project-image" src="assets/img/welcome-slider/1.jpg" alt="project">
+                  </div>
+                </div>
+                <div class="item ">
+                  <div class="description">
+                    <img class="project-image" src="assets/img/welcome-slider/2.jpg" alt="project">
+                  </div>
+                </div>
+                <div class="item ">
+                  <div class="description">
+                    <img class="project-image" src="assets/img/welcome-slider/3.jpg" alt="project">
+                  </div>
+                </div>
+                <div class="item ">
+                  <div class="description">
+                    <img class="project-image" src="assets/img/welcome-slider/4.jpg" alt="project">
+                  </div>
+                </div>
+                <div class="item ">
+                  <div class="description">
+                    <img class="project-image" src="assets/img/welcome-slider/5.jpg" alt="project">
+                  </div>
+                </div>
+              </div>
+                <div class="slider-nav">
+                  <div class="num-slide">
+                      0<p id="num"> 1 </p>  | &nbsp;05
+                  </div>
+                  <div class="dots-wrapper">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                  </div>
+                  <div class="control-nav">
+                  <div class="control left">
+                    <div class="arrow left">
+                      <img src="assets/img/arrow-l.png" alt="l">
+                    </div>
+                  </div>
+                  <div class="control right">
+                    <div class="arrow right">
+                      <img src="assets/img/arrow-r.svg" alt="r">
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+            
           </div>
           <div class="welcome-small">
             <div class="welcome-small-content">
@@ -128,7 +183,14 @@
             <p class="etp2"> It was cleaned in 1984 to remove a <span>"yellow veil"</span> of dust that had gathered since the previous restoration in the 19th century.</p>
             <p class="etp3">The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
           </div>
-          <img src="assets/img/explore-slider/after.jpg" alt="after">
+          <div class="explore-ba">
+              <div class="img-comp-img">
+                <img src="assets/img/explore-slider/after.jpg">
+              </div>
+              <div class="img-comp-img img-comp-overlay">
+                <img src="assets/img/explore-slider/before.jpg">
+              </div>
+          </div>
         </div>
       </div>
     </section>
@@ -138,13 +200,20 @@
           <h2 class="section-title vis">Video journey</h2>
           <p>Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
         </div>
-        <img src="assets/img/video.png" alt="player">
-        <div class="video-progres">
-          <button type="button"><img src="assets/img/play.png" alt="play"></button>
-          <input type="range" value="1" min="1" max="100" step="1" class="progress time">
-          <button type="button"><img src="assets/img/volume.png" alt="volume"></button>
-          <input type="range" value="1" min="1" max="100" step="1" class="progress volume">
-          <button type="button"><img src="assets/img/full_screen.png" alt="full_screen"></button>
+        <div class="container-video">
+          <div class="video-player">
+            <img src="assets/img/play-big.png" alt="play-big" class="play-big">
+            <video poster="assets/video/poster0.jpg" class="video-player-vid" >
+                <source src="assets/video/video0.mp4" type="video/mp4">
+            </video>
+         </div> 
+          <div class="video-buttons">
+            <button class="play"><img src="assets/img/play.png" alt="play"></button>
+            <input type="range" name="playbackRate" class="player-time" min="1" max="100" step="0.1" value="0">
+            <button class="volume-img"><img src="assets/img/volume.png" alt="volume"></button>
+            <input type="range" name="volume" class="player-volume" min="0" max="100" step="0.1" value="50">
+            <button class="fullScreen"><img src="assets/img/full_screen.png" alt="fullScreen"></button>
+          </div>
         </div>
         <div class="video-gallery">
           <img src="assets/img/video-gal1.png" alt="video-gal1">
@@ -153,6 +222,7 @@
         </div>
         <div class="img-pagin"><img src="assets/img/videosliderpagination.png" alt="pagin"></div>
       </div>
+      <script src="video.js"></script>
     </section>
     <section class="Gallery" id="Gallery">
       <div class="container">
